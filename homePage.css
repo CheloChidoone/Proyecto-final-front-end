@@ -233,7 +233,6 @@ body {
   font-family: var(--fontContenido);
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 2vh;
 }
 
 .about-us {
@@ -282,6 +281,79 @@ body {
   .navItem a{
     font-size: 2rem;
   }
+}
+
+/*IPad Pro*/
+@media only screen and (max-width: 1024px) and (min-height: 1365px){
+  .navBar {
+    display: none;
+  }
+
+  .navBarMobile {
+    display: flex;
+  }
+
+  .navItem a {
+    font-size: 2rem;
+  }
+
+  .heroBanner {
+    height: 90vh;
+    margin-bottom: 10vh;
+  }
+
+  .fondoBanner {
+    display: none;
+  }
+
+  .bannerContent {
+    width: 95vw;
+    background-image: url('./Images/fondoBanner.png');
+    background-size: cover;
+  }
+
+  .tituloSeccionMobil {
+    font-size: 2.8rem;
+    display: inline;
+  }
+
+  .bannerBody {
+    font-size: 2rem;
+  }
+
+  .imgBanner {
+    height: 70%;
+  }
+
+  .rowCardsMobil {
+    display: flex;
+  }
+
+  .rowCardsMobil h1 {
+    font-size: 2.8rem;
+    margin-top: 45vh;
+    margin-left: 7%;
+  }
+
+  .cardContainer {
+    display: none;
+  }
+
+  .about-us {
+    width: 95vw;
+    margin-top: 3vh;
+  }
+
+  .about-us .titulo {
+    text-align: center;
+  }
+
+  .about-us .texto {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+  }
+
 }
 
 @media only screen and (max-width: 850px) {
