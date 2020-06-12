@@ -110,7 +110,7 @@ body {
   height: 48.3837330552659vh;
   min-width: 17.5rem;
   min-height: 28.75rem;
-  margin: 0rem 3.5rem;
+  margin: 0rem 2.5rem;
   z-index: 1;
 }
 
@@ -889,6 +889,24 @@ figure > img {
 
   .footerText {
     font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 376px) {
+  .Contenido {
+    height: 140vh !important;
+  }
+}
+
+@media only screen and (min-width: 376px) and (min-height: 721px) {
+  .Contenido {
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (min-width: 1021px) {
+  .Contenido {
+    height: 100vh !important;
   }
 }
 
